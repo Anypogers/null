@@ -23,8 +23,9 @@ export function Post() {
         <p>Yooooo</p>
         <p>Just started playing In Stars and Time, massive banger ngl.</p>
         <img className={styles.postImage} src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_InStarsAndTime_image1600w.jpg" alt="In Stars and Time"/>
-        <p>
-          <a href="#">#gaming</a> <a href="#">#instarsandtime</a>{" "}
+        <p className={styles.tags}>
+          <a href="#">#gaming</a>
+          <a href="#">#instarsandtime</a>
           <a href="#">#indiegames</a>
         </p>
       </div>

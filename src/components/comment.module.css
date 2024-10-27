@@ -10,6 +10,17 @@
   border-radius: 8px;
 }
 
+.name {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+.name:hover{
+  color: var(--gray-200);
+}
+
 .commentBox {
   flex: 1;
 }

@@ -9,7 +9,7 @@ export function Comment() {
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Rogerio Furlan</strong>
+              <a href='https://github.com/furlanrogerio' className={styles.name}>Rogerio Furlan</a>
               <time title="October 27th, 02:22am" dateTime="27/10/2024 02:22am">Posted 4 days ago.</time>
             </div>
             <button title='Delete Comment'>

@@ -32,6 +32,8 @@
 
 .content a{
   font-weight: bold;
+  margin-right: 0.4rem;
+  font-style: italic;
   color: var(--pink);
   text-decoration: none;
   transition: color, 0.2s;

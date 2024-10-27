@@ -81,6 +81,7 @@
 }
 
 .title strong{
+  color: var(--white);
   font-size: 2vw;
   font-style: italic;
   text-decoration: underline;
