@@ -2,6 +2,7 @@
   background: var(--gray-800);
   border-radius: 8px;
   padding: 2.5rem;
+  max-width: 60%;
 }
 
 .post > header{
@@ -72,15 +73,13 @@
   margin-left: 0;
   border: 2px var(--pink) solid;
   border-radius: 2rem;
-  max-width: 50rem;
-  transition: border 0.1s, border-radious 0.1s, scale 0.1s, margin-left 0.1s;
+  max-width: 98%;
+  transition: border 0.1s, border-radious 0.1s;
 }
 
 .postImage:hover{
   border: 3px var(--purple) solid;
   border-radius: 1rem;
-  margin-left: 0.6rem;
-  scale: 1.02;
 }
 
 .commentForm {

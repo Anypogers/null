@@ -7,10 +7,12 @@ import './global.css';
 
 
 export function App() {
-  return (  
+  return (
     <div>
-      <Header/>
-      <Topbar />
+      <div className={styles.headerBar}>
+        <Header/>
+        <Topbar />
+      </div>
       <div className={styles.wrapper}>
         <main>
           <Post />

@@ -12,7 +12,7 @@ export function Post() {
           />
           <div className={styles.authorInfo}>
             <strong>Anypogers</strong>
-            <span>Web Developer</span>
+            <span>Game Developer</span>
           </div>
         </div>
         <time title="October 27th, 02:22am" dateTime="27/10/2024 02:22am">

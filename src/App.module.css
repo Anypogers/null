@@ -1,5 +1,18 @@
+.headerBar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .wrapper{
   max-width: 80rem;
   margin: 2rem auto;
   padding: 0 1rem;
+}
+
+.wrapper main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
