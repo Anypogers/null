@@ -4,24 +4,24 @@ import styles from './comment.module.css';
 export function Comment() {
   return(
     <div className={styles.comment}>
-      <img src="https://github.com/Anypogers.png" alt="" />
+      <img src="https://github.com/furlanrogerio.png" alt="" />
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Anypogers</strong>
-              <time title="10 de Setembro às 09:44h" dateTime="2024/09/10 09:44:00">Há 1h atrás</time>
+              <strong>Rogerio Furlan</strong>
+              <time title="October 27th, 02:22am" dateTime="27/10/2024 02:22am">Posted 4 days ago.</time>
             </div>
-            <button title='Excluir Comentário'>
+            <button title='Delete Comment'>
               <Trash size={24}/>
             </button>
           </header>
-          <p>So true bestie</p>
+          <p><i>Interessante.</i></p>
         </div>
         <footer>
           <button>
             <ThumbsUp size={20}/>
-            Curtir <span>69</span>
+            Curtir <span>69k</span>
           </button>
         </footer>
       </div>

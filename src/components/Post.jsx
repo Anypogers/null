@@ -15,13 +15,14 @@ export function Post() {
             <span>Web Developer</span>
           </div>
         </div>
-        <time title="10 de Setembro às 09:44h" dateTime="2024/09/10 09:44:00">
-          Publicado há 1h
+        <time title="October 27th, 02:22am" dateTime="27/10/2024 02:22am">
+          Posted 4 days ago.
         </time>
       </header>
       <div className={styles.content}>
         <p>Yooooo</p>
         <p>Just started playing In Stars and Time, massive banger ngl.</p>
+        <img className={styles.postImage} src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_InStarsAndTime_image1600w.jpg" alt="In Stars and Time"/>
         <p>
           <a href="#">#gaming</a> <a href="#">#instarsandtime</a>{" "}
           <a href="#">#indiegames</a>
@@ -29,15 +30,13 @@ export function Post() {
       </div>
 
       <form className={styles.commentForm}>
-        <strong>Deixe seu feedback !</strong>
-        <textarea placeholder="Deixe um comentário"></textarea>
+        <strong>Leave a comment!</strong>
+        <textarea placeholder="Text goes here!"></textarea>
         <footer>
-          <button type="submit">Publicar</button>
+          <button type="submit">Post</button>
         </footer>
       </form>
       <div className={styles.commentList}>
-        <Comment />
-        <Comment />
         <Comment />
       </div>
     </article>

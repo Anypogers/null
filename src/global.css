@@ -10,7 +10,8 @@
   --gray-700: #29292e;
   --gray-800: #202024;
   --gray-900: #121214;
-
+  --black: #000000;
+  
   --green-300: #00b37e;
   --green-500: #00875f;
 }
@@ -36,4 +37,19 @@ body, input, textarea, button {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+
+/* SCROLL BAR */
+
+/* WebKit browsers */
+/* This *should* work, but /shrug, dont use chrome, so I can't test it.*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Firefox */
+/* See? firefox is way better, another W for Fire Fox*/
+html {
+  scrollbar-width: none;
 }
