@@ -21,7 +21,7 @@ export function Comment() {
         <footer>
           <button>
             <ThumbsUp size={20}/>
-            Curtir <span>69k</span>
+            Like <span>69k</span>
           </button>
         </footer>
       </div>
