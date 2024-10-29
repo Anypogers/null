@@ -38,7 +38,8 @@ export function Post() {
         </footer>
       </form>
       <div className={styles.commentList}>
-        <Comment />
+        <Comment/>
+        <Comment/>
       </div>
     </article>
   );

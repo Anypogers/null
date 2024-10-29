@@ -76,7 +76,7 @@
   border: 2px var(--pink) solid;
   border-radius: 2rem;
   max-width: 98%;
-  transition: border 0.1s, border-radious 0.1s;
+  transition: border 0.1s, border-radius 0.1s;
 }
 
 .postImage:hover{
