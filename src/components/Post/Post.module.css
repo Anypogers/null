@@ -129,11 +129,12 @@
 .commentForm footer {
   visibility: hidden;
   max-height: 0;
+  transition: max-height 0.2s;
 }
 
 .commentForm:focus-within footer{
   visibility: visible;
-  max-height: none;
+  max-height: 5rem;
 }
 
 .commentList {

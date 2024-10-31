@@ -1,6 +1,6 @@
 import styles from './Header.module.css';
 
-import logo from '../assets/AbsoluteSolver.png';
+import logo from '../../assets/AbsoluteSolver.png';
 
 export function Header(){
   return(

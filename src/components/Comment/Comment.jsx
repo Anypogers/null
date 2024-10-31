@@ -1,5 +1,5 @@
 import { ThumbsUp, Trash } from '@phosphor-icons/react';
-import styles from './comment.module.css';
+import styles from './Comment.module.css';
 
 export function Comment() {
   return(

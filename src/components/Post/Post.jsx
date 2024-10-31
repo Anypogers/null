@@ -1,4 +1,4 @@
-import { Comment } from "./comment";
+import { Comment } from "../Comment/Comment";
 import styles from "./Post.module.css";
 
 export function Post() {
@@ -19,6 +19,7 @@ export function Post() {
           Posted 4 days ago.
         </time>
       </header>
+      
       <div className={styles.content}>
         <p>Yooooo</p>
         <p>Just started playing In Stars and Time, massive banger ngl.</p>
