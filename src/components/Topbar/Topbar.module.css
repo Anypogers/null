@@ -86,3 +86,22 @@
   font-style: italic;
   text-decoration: underline;
 }
+
+.word {
+  display: flex;
+  margin-left: 6px;
+  margin-right: 6px;
+  transition: scale 0.1s;
+}
+
+.word_letter{
+  transition: scale 0.1s;
+}
+
+.word:hover{
+  scale: 1.05;
+}
+
+.word .word_letter:hover{
+  scale: 1.1;
+}
