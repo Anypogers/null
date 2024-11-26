@@ -1,13 +1,16 @@
 import { Header } from "../../components/Header/Header";
 import { Topbar } from "../../components/Topbar/Topbar";
-import { Post } from "../../components/Post/Post";
+
+import * as dataManager from '../../../data/dataManager';
 
 import styles from './Home.module.css'
 import '../../global.css';
 
+const dataPath = './data/games/';
+
 export function Home() {
   return (
-    <>
+    <>s
       <Header/>
       <div>
         <div className={styles.headerBar}>
@@ -15,7 +18,7 @@ export function Home() {
         </div>
         <div className={styles.wrapper}>
           <main>
-            <Post />
+
           </main>
         </div>
       </div>
