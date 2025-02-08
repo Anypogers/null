@@ -1,21 +1,20 @@
 import { Header } from "../../components/Header/Header";
 import { Topbar } from "../../components/Topbar/Topbar";
 
-import styles from './Home.module.css'
+import styles from './Games.module.css'
+import '../../global.css';
 
-export function Home() {
+export function Games() {
   return (
     <>
       <Header/>
       <div>
         <div className={styles.headerBar}>
-          <Topbar text="Anypoger's Cool Website!"/>
+          <Topbar text="Any's Game Sugestions"/>
         </div>
         <div className={styles.wrapper}>
           <main>
-            <h1>I don't know what to put here</h1>
-              <p> </p>
-            <h4><i>lol</i></h4>
+            
           </main>
         </div>
       </div>
