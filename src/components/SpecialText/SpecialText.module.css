@@ -21,3 +21,11 @@
 .title:hover { scale: 1.025; }
 .word:hover  { scale: 1.05; }
 .word_letter:hover { scale: 1.075; }
+
+.roboto{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.press_start{
+  font-family: 'Press Start 2P', monospace;
+}

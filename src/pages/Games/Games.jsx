@@ -5,17 +5,22 @@ import styles from './Games.module.css'
 import '../../global.css';
 
 export function Games() {
+  const titleBarStyle = {
+    textDecoration: 'underline',
+    fontWeight: 'bold',
+    fontStyle: 'italic'
+  }
   return (
     <>
       <Header/>
       <div>
         <div className={styles.headerBar}>
-          <TitleBar text="Any's Game Sugestions"/>
+          <TitleBar text="Any's Game Sugestions" customStyle={titleBarStyle}/>
         </div>
         <div className={styles.wrapper}>
           <main>
             <div>
-              <p style={{fontSize:"1.5vw"}}>MY TEXT</p>
+              <p style={{fontSize:"1.5vw"}} >MY TEXT</p>
             </div>
           </main>
         </div>

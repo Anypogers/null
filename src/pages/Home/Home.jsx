@@ -13,8 +13,10 @@ export function Home() {
         </div>
         <div className={styles.wrapper}>
           <main>
-            <h1>I don't know what to put here</h1>
-            <h5><i>lol</i></h5>
+            <div className={styles.container}>
+              <h1 className={styles.rotated}>I don't know what to put here</h1>
+              <h5><i>lol</i></h5>
+            </div>
           </main>
         </div>
       </div>
