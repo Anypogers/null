@@ -1,0 +1,9 @@
+.titlebar {
+  margin-top: 2rem;
+  width: 80%;
+  min-height: 10vw;
+  background: var(--gray-800);
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+}

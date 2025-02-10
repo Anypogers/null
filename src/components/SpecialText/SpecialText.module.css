@@ -1,25 +1,8 @@
-.topbar {
-  margin-top: 2rem;
-  width: 80%;
-  min-height: 10vw;
-  background: var(--gray-800);
-  border-radius: 1rem;
-  overflow: hidden;
-  display: flex;
-}
-
 .title{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-
-.title strong{
-  color: var(--white);
-  font-size: 2vw;
-  font-style: italic;
-  text-decoration: underline;
 }
 
 .word {

@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header/Header";
-import { Topbar } from "../../components/Topbar/Topbar";
+import { TitleBar } from "../../components/TitleBar/TitleBar";
 
 import styles from './NotFound.module.css'
 import '../../global.css';
@@ -10,7 +10,7 @@ export function NotFound() {
       <Header />
       <div className={styles.page}>
         <div className={styles.headerBar}>
-          <Topbar text="404 - Page Not Found"/>
+          <TitleBar text="404 - Page Not Found"/>
         </div>
       </div>
     </>

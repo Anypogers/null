@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header/Header";
-import { Topbar } from "../../components/Topbar/Topbar";
+import { TitleBar } from "../../components/TitleBar/TitleBar";
 
 import styles from './Home.module.css'
 
@@ -9,13 +9,12 @@ export function Home() {
       <Header/>
       <div>
         <div className={styles.headerBar}>
-          <Topbar text="Anypoger's Cool Website!"/>
+          <TitleBar text="Anypoger's Cool Website!" textSize='3vw'/>
         </div>
         <div className={styles.wrapper}>
           <main>
             <h1>I don't know what to put here</h1>
-              <p> </p>
-            <h4><i>lol</i></h4>
+            <h5><i>lol</i></h5>
           </main>
         </div>
       </div>
