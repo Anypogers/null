@@ -1,0 +1,40 @@
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.word {
+  display: flex;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.title,
+.word,
+.word_letter{
+  cursor: default;
+  transition: scale 0.1s;
+  animation: glitch 1s linear infinite;
+}
+
+.title:hover { scale: 1.025; }
+.word:hover  { scale: 1.05; }
+.word_letter:hover { scale: 1.075; }
+
+@keyframes glitch {
+  0% {transform: skewX(-10deg);}
+  4% {transform: skewX(10deg);}
+  8% {transform: skewX(-10deg);}
+  12% {transform: skewX(10deg);}
+  16% {transform: skewX(0deg);}
+}
+
+.roboto{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.press_start{
+  font-family: 'Press Start 2P', monospace;
+}
