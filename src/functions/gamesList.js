@@ -9,11 +9,15 @@ const games = {
     },
     Dusk: {
       captalizeName: true,
-      description: []
+      description: [
+        "Gary loves you"
+      ]
     },
     FaithTheUnholyTrinity: {
       captalizeName: true,
-      description: []
+      description: [
+        "Not aprooved by the vatican"
+      ]
     }
   },
   Mojang: {
@@ -39,23 +43,29 @@ const games = {
 function getPublishers() {
   const publishers = Object.keys(games).sort();
   publishers.map((publisher, index) => {
-    const captalize = games[publisher].captalizeName
-    const publisherName = publisher.replaceAll(/([a-z])([A-Z])/, '$1 $2')
+    const captalize = games[publisher].captalizeName;
+    let publisherName = publisher.replaceAll(/([a-z])([A-Z])/g, '$1 $2');
     if (captalize) {
-      publishers[index] = publisherName.toUpperCase()
+      publisherName = publisherName.toUpperCase();
     }
+    publishers[index] = publisherName;
   });
   return publishers; 
 }
 
+
 function getGames(publisher){
+  publisher = publisher.toLowerCase();
+  publisher = publisher.replaceAll(/ ([a-z])/gi, '$1'.toUpperCase());
+  publisher = publisher.charAt(0).toUpperCase() + publisher.slice(1);
+  console.log(publisher)
   const publisherGames = games[publisher];
   delete publisherGames.captalizeName;
   const gameNames = Object.keys(publisherGames).sort();
   gameNames.map((gameName) => {
     const captalize = publisherGames[gameName].captalizeName;
     const oldName = gameName;
-    const newName = gameName.replaceAll(/([a-z])([A-Z])/, '$1 $2');
+    let newName = gameName.replaceAll(/([a-z])([A-Z])/g, '$1 $2');
     if (captalize) {
       newName = newName.toUpperCase();
     }
@@ -66,3 +76,6 @@ function getGames(publisher){
   });
   return publisherGames;
 }
+
+
+console.log(getGames('New Blood Two'))
