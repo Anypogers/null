@@ -13,10 +13,10 @@ export function Games() {
   return (
     <>
       <Header/>
-      <div>
-        <div className={styles.headerBar}>
-          <TitleBar text="Any's Game Sugestions" customStyle={titleBarStyle}/>
-        </div>
+      <section className={styles.headerBar}>
+        <TitleBar text="Any's Game Sugestions" customStyle={titleBarStyle}/>
+      </section>
+      <section>
         <div className={styles.wrapper}>
           <main>
             <div>
@@ -24,7 +24,7 @@ export function Games() {
             </div>
           </main>
         </div>
-      </div>
+      </section>
     </>
   )
 }
