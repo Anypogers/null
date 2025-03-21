@@ -1,0 +1,66 @@
+section{
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  width: 100%;
+  height: 10vw;
+  border-style: solid;
+  border-radius: 1vw;
+  border-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title>*{
+  height: 100%;
+}
+
+.clock{
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clock>div{
+  margin-bottom: 1vw;
+  border-radius: 1vw;
+  border-style: outset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekBox{
+  width: 50%;
+  height: 100%;
+}
+
+.dateBox,
+.timeBox{
+  width: 35%;
+  height: 100%;
+}
+
+.clock p{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 3vw;
+}

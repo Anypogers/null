@@ -1,8 +1,8 @@
 import { Header } from "../../components/Header/Header";
 import { TitleBar } from "../../components/TitleBar/TitleBar";
+import { Recomendations } from "./Recomendations";
 
 import styles from './Games.module.css'
-import '../../global.css';
 
 export function Games() {
   const titleBarStyle = {
@@ -20,7 +20,7 @@ export function Games() {
         <div className={styles.wrapper}>
           <main>
             <div>
-              <p style={{fontSize:"1.5vw"}} >MY TEXT</p>
+              <Recomendations />
             </div>
           </main>
         </div>
