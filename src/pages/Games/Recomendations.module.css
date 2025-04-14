@@ -1,0 +1,18 @@
+.gameCard{
+  width: 100%;
+  height: 15rem;
+  margin-top: 1rem;
+  background: var(--gray-800);
+  border-radius: 1rem;
+  border: solid, var(--pink), 0.3rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--purple);
+  transition: 0.2s color;
+}
+
+a:hover{
+  color: var(--pink)
+}

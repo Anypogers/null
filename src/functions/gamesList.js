@@ -42,11 +42,15 @@ const games = {
       "The RPG game where you don't have to destroy anyone."
     ]
   },
+  "OneShot": {
+    steamLink: "https://store.steampowered.com/app/420530/OneShot/",
+    officialSite: null,
+    description: [
+      "OneShot is a surreal top down Puzzle/Adventure game with unique gameplay capabilities. You are to guide a child through a mysterious world on a mission to restore its long-dead sun. The world knows you exist."
+    ]
+  }
 }
 
-export default function gamesList(){
-  
-}
 
 /// Returns an array with the names of the games on the list.
 export function getGames() {
