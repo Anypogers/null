@@ -1,4 +1,4 @@
-.page {
+.firstSection {
   width: 100vw;
   height: 80vh;
   display: flex;
@@ -28,4 +28,32 @@
   0% {transform: skewX(-10deg);}
   2% {transform: skewX(10deg);}
   4% {transform: skewX(0deg);}
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  gap: 0.8rem;
+}
+
+.marqueeContent {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: 0.8rem;
+  font-family: 'Press Start 2P', monospace;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 0.8rem));
+  }
+}
+
+.scroll{
+  animation: scroll 24s linear infinite;
 }

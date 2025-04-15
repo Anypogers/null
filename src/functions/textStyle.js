@@ -1,3 +1,8 @@
+
+// W.I.P.
+// NOT READY FOR USE
+// NEED TO COME BACK TO THIS LATER
+
 class TextStyle{
   constructor(styles = {}) {
     this.fontSize = styles.size || defaultStyles.fontSize;

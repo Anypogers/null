@@ -11,18 +11,16 @@ export function Recomendations(){
           const gameInfo = gamesList.getGameInfo(game);
           return (
             <div className={styles.gameCard}>
-              <div>
-                <h1>
-                  {game}
-                </h1>
+              <div className={styles.titleSpace}>
+                <h1 className={styles.title}>{game}</h1>
               </div>
-              <div>
-                <a href={gameInfo.steamLink}>Steam</a>
+              <div className={styles.linkSpace}>
+                {displayIfExist(gameInfo.steamLink, (<a href={gameInfo.steamLink}>Steam Link</a>))}
                 {displayIfExist(gameInfo.officialSite, (<a href={gameInfo.officialSite}>Official Site</a>))}
               </div>
-              <div>
+              <div className={styles.descriptionSpace}>
                 {gameInfo.description.map((line) => {
-                  return <p>{line}</p>
+                  return <p className={styles.descriptionLine}>{line}</p>
                 })}
               </div>
             </div>
