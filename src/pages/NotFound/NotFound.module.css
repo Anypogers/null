@@ -42,6 +42,7 @@
   justify-content: space-around;
   min-width: 100%;
   gap: 0.8rem;
+  font-size: 2.5rem;
   font-family: 'Press Start 2P', monospace;
 }
 
@@ -55,5 +56,5 @@
 }
 
 .scroll{
-  animation: scroll 24s linear infinite;
+  animation: scroll 100s linear infinite;
 }
